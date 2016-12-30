@@ -17,8 +17,24 @@
 </form>
 
 <?php
-echo $_GET["termindatum"];
-echo $_GET["nachricht"];
+//echo $_GET["termindatum"];
+//echo $_GET["nachricht"];
+
+$termindatum= $_GET["termindatum"];
+$nachricht= $_GET["nachricht"];
+
+$myfile = fopen("termindatenbank.txt", "a") or die("Unable to open file!");
+fwrite($myfile,$termindatum . "\n");
+fwrite($myfile, $nachricht . "\n");
+fclose($myfile);
+
+$myfile = fopen("termindatenbank.txt", "r") or die("Unable to open file!");
+// Output one line until end-of-file
+while(!feof($myfile)) {
+    echo fgets($myfile) . "<br>";
+}
+fclose($myfile);
+
 ?>
 
 </body>
