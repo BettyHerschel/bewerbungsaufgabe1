@@ -12,10 +12,10 @@ Zahlen durch 2 teilbar, Zwei <br>
 Zahlen durch 7 teilbar, Sieben<br>
 Zahlen durch 2 und 7 teilbar, ZweiSieben
 
-**Review**
-1. Funktion erstellt, die Zahlen durch 2 teilt und ersetzt mit Zwei
-2. Funktionen erstellt für Zahlen 7 und 2,7
-3. Schleife erstellt, um Zahlen von 1-200 auszugeben
+**Review**<br>
+1. Funktion erstellt, die Zahlen durch 2 teilt und ersetzt mit Zwei<br>
+2. Funktionen erstellt für Zahlen 7 und 2,7<br>
+3. Schleife erstellt, um Zahlen von 1-200 auszugeben<br>
 
 Schwierigkeiten<br>
 Eingebewert muss für weitere if Abfragen erhalten bleiben
@@ -39,10 +39,10 @@ Speicherort wählbar
 
 Termine anzeigen als Liste
 
-**Review**
-1. html als Bausteine eingefügt, um Eingebefelder zu erzeugen
-2. PHP eingebaut, um Eingabewerte mit Get in Variablen zu speichern
-3. Baustein für erstellen/öffnen und speichern in einer Testdatei
+**Review** <br>
+1. html als Bausteine eingefügt, um Eingebefelder zu erzeugen<br>
+2. PHP eingebaut, um Eingabewerte mit Get in Variablen zu speichern<br>
+3. Baustein für erstellen/öffnen und speichern in einer Testdatei<br>
 4. Auslesen der Datei mit Baustein
 
 Schwierigkeiten<br>
